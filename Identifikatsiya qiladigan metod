@@ -1,0 +1,5 @@
+txt = "blablabla_1"
+x = txt.isidentifier()
+print(x)
+#pythondagi o'zgaruvchilarni tekshirib uni 
+muvofiq yoki yo'qligini aytadigan metod.
