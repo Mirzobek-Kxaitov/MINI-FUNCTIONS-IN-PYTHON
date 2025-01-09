@@ -1,0 +1,6 @@
+txt = "Hi, welcome to my castle."
+
+x = txt.endswith(("BLA BLA BLA.", "castle."))
+#stringdagi birinchi vergulga qadar bo'lgan qiymat muvofiq kelishi ahamiyatsiz,
+muhimi oxirgi qiymat ("castle.") muvofiq bo'lishi funksiyani True or False ekanligini anglatadi
+print(x)
