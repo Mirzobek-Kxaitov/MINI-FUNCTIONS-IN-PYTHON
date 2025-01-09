@@ -1,0 +1,8 @@
+txt = "Hello! Are you #1?"
+
+x = txt.isprintable()
+
+print(x)
+# stringda faqat chop etiladigan narsalar ekanligini 
+#tekshiradigan metod. agar unda \n, \t yoki shu kabi print 
+qilinmaydigan narsalar bo'lsa False chiqadi
