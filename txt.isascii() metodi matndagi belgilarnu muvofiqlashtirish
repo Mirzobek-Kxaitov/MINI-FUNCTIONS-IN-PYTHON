@@ -1,0 +1,10 @@
+txt = ('Denov_city')
+
+x = txt.isascii()
+
+print(x)
+
+#Bu metod stringdagi harflar ASCII ya'ni (American Standard Code for Information Interchange)
+#diapazoniga tushish yoki tushmasligini tekshiradi.
+Misolimizda ("Denov_city") ASCII ga muvofiq keladi 
+#lekin uni ("Денов_сити") kabi yozsak False ko'rsatadi
