@@ -1,0 +1,7 @@
+txt = "       "
+
+x = txt.isspace()
+
+print(x)
+
+#txt.isspace() matnda faqat bo'sh joy bor ekanligini tekshiruvchi metod.
