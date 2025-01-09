@@ -1,0 +1,6 @@
+txt = "Hi, welcome to my castle."
+
+x = txt.find("welcome")
+print(x)
+# natija 4 
+sababi .find() funksiyasi stringni indexni ko'rsatadi
