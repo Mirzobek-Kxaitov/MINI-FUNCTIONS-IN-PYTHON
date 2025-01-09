@@ -1,0 +1,6 @@
+txt = ["liverpull","1995 @mail.ru"]
+print("_".join(txt))
+
+# bu metod quotes (" ", ' ') larni orasini bog'lashda ishlatiladi. Bizni masalamizda liverpull stringini
+# 1995 @mail.ru stringi bilan bog'lashda "_" snake case(_) ishlatilgan shunda natijamiz
+liverpull_1995 @mail.ru bo'ladi.
