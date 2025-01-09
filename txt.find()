@@ -7,4 +7,4 @@ sababi .find() funksiyasi yozilgan so'zdagi 1-stringni indexni ko'rsatadi, misol
 bundan tashqari west so'zida ham 'w' indexi bor lekin biz 'welcome' deb yozganimiz uchun find funksiyasi 1-indexni ko'rsatdi,agar biz 
 x = txt.find("west")
 print(x)
-qilganimizda unda 'west'ning birinchi indeksini ko'rsatardi va #natija 18 bo'lgan bo'lardi
+qilganimizda unda 'west'ning birinchi indeksini ko'rsatardi va #natija 18 bo'lgan bo'lar edi
