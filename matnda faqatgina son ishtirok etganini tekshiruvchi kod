@@ -1,0 +1,6 @@
+txt = ('1554465')
+
+x = txt.isdecimal()
+
+print(x)
+#matnda faqatgina son ishtirok etganini tekshiruvchi kod
