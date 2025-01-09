@@ -1,0 +1,7 @@
+txt = "CompanyX"
+
+x = txt.isalpha()
+
+print(x)
+# stringda faqat harflar ishtirok etishini ta'minlovchi kod agar stringda son yoki biror boshqa belgi bo'lsa False ko'rsatadi
+#aksi bo'lsa True
