@@ -3,5 +3,8 @@ txt = "Hi, welcome to my west castle."
 x = txt.find("welcome")
 print(x)
 # natija 4 
-sababi .find() funksiyasi 1-stringni indexni ko'rsatadi, misol welocome so'zidagi 1-index bu 'w'
-bundan tashqari west so'zida ham 'w' indexi bor lekin find funksiyasi faqat 1-indexnigina ko'rsatadi.
+sababi .find() funksiyasi yozilgan so'zdagi 1-stringni indexni ko'rsatadi, misol welocome so'zidagi 1-index bu 'w'
+bundan tashqari west so'zida ham 'w' indexi bor lekin biz 'welcome' deb yozganimiz uchun find funksiyasi 1-indexni ko'rsatdi,agar biz 
+x = txt.find("west")
+print(x)
+qilganimizda unda 'west'ning birinchi indeksini ko'rsatardi va #natija 18 bo'lgan bo'lardi
