@@ -1,0 +1,7 @@
+txt = "blablabla123"
+
+x = txt.isalnum()
+
+print(x)
+#Ushbu metod stringda faqat son va harflar bo'lishini tekshiradigan metod bo'lib agar 
+#string ichida boshqa belgilar ( : . _ - , : ; ) bo'lsa False ko'rsatadi. Bo'lmasa True!
