@@ -1,0 +1,4 @@
+txt = "Bor yo'g'i {narx} so'm!"
+print(txt.format(narx = 49))
+
+string ichiga 
