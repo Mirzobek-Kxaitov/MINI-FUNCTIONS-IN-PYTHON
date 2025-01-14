@@ -1,0 +1,23 @@
+def calculator(): #funksiya nomi
+    print("Basic calculator in Python")# funksiya ishga tushganda chiqadigan ad
+    print("Operations '+' '-' '*' '/' ")#bajariladigan operatsiyalar
+    num1 = float(input("Enter the 1st number "))# kalkulatorda birinchi kiritiladigan raqam
+    operator = input("Select the operation ")# ikki raqam o'rtasida qilinadigan amal
+    num2 =float(input("Enter the 2nd number "))# ikkinchi kiritiladigan raqam
+
+    if operator == '+': #agar amal qo'shish bo'lsa:
+        print(f"Result: {num1+num2}") # 1 va 2-raqamlarni qo'shadi
+    elif operator == '-': #agar amal ayirish bo'lsa:
+        print(f"Result: {num1-num2}")#1 va 2-raqamlarni ayiradi
+    elif operator == '*': #agar amal kopaytirish bo'lsa:
+        print(f"Result: {num1*num2}")#1 va 2-raqamlarni kopaytiradi
+    elif operator== '/': #agar amal bo'lish bo'lsa:
+        if num2 != 0: # 2-kritilgan raqam 0ga teng bo'lmasa:
+            print(f"Result: {num1 / num2}") # bu kod ishlaydi
+        else:# 0 bo'lsa bu yozuv chiqadi
+            print("Cannot be divided by zero")
+
+    else:
+        print("Incorrect operation was selected")
+
+calculator()
